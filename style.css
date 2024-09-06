@@ -1,0 +1,26 @@
+body{
+    background-color: aqua;
+}
+.container{
+ border: 2px;
+ border-color: black;
+background-color: whitesmoke;
+height: 15cm;
+width: 25cm;
+
+}
+.box{
+ height: 2.5cm;
+ width: 2.5cm;
+ background-color: black;
+ 
+}
+
+.circle{
+    height: 1cm;
+    width: 1cm;
+    background-color: pink;
+    border-radius: 100%;
+    display: flex;
+    
+}
