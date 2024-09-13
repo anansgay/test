@@ -1,26 +1,49 @@
-body{
-    background-color: aqua;
-}
 .container{
- border: 2px;
- border-color: black;
-background-color: whitesmoke;
-height: 15cm;
-width: 25cm;
+    background-color: whitesmoke;
+    height: 30cm;
 
+}
+.container h2{
+    text-align: right;
 }
 .box{
- height: 2.5cm;
- width: 2.5cm;
- background-color: black;
- 
+    border: 10%;
+    border-radius: 10%;
+    border-color: black;
+    width: 13cm;
+    height: 16cm;
+    background-color: white;
+    margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
-
-.circle{
+h1{
+    text-align: center;
+}
+.box p{
+    text-align: center;
+    color: rgb(159, 149, 149);
+}
+.ex button {
+    background-color: blue;
+    color: white;
+    width: 3cm;
     height: 1cm;
-    width: 1cm;
-    background-color: pink;
-    border-radius: 100%;
+    border: 10% ;
+    border-radius: 2cm;
     display: flex;
-    
+  justify-content: center;
+  align-items: center;
+}
+.signup p{
+    text-align: center;
+    color: rgb(159, 149, 149);
+}
+.up p{
+    text-align: center;
+    text-decoration: underline;
+    color: black;
 }
